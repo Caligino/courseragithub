@@ -1,29 +1,23 @@
-📣 Discussions
-Discussions are where we have conversations.
+# Example GitHub Code of Conduct
 
-If you'd like help troubleshooting a docs PR you're working on, have a great new idea, or want to share something amazing you've learned in our docs, join us in discussions.
+As contributors and maintainers of this project, we pledge to respect all people who contribute through reporting issues, posting feature requests, updating documentation, submitting pull requests, and any other activities.
 
-🐞 Issues
-Issues are used to track tasks that contributors can help with. If an issue has a triage label, we haven't reviewed it yet, and you shouldn't begin work on it.
+We are committed to making participation in this project a harassment-free experience for everyone, regardless of level of experience, gender, gender identity and expression, sexual orientation, disability, personal appearance, body size, race, ethnicity, age, religion, or nationality.
 
-If you've found something in the content or the website that should be updated, search open issues to see if someone else has reported the same thing. If it's something new, open an issue using a template. We'll use the issue to have a conversation about the problem you want to fix.
+Examples of unacceptable behavior by participants include:
 
-🛠️ Pull requests
-A pull request is a way to suggest changes in our repository. When we merge those changes, they should be deployed to the live site within 24 hours. 🌍
+- The use of sexualized language or imagery
+- Personal attacks
+- Trolling or insulting/derogatory comments
+- Public or private harassment
+- Publishing other's private information, such as physical or electronic addresses, without explicit permission
+- Other unethical or unprofessional conduct
 
-We cannot accept contributions to the REST API reference documentation. If you spot an inaccuracy in the REST API reference documentation, open an issue in the github/rest-api-description repository.
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned with this Code of Conduct. By adopting this Code of Conduct, project maintainers commit themselves to fairly and consistently applying these principles to every aspect of managing this project. Project maintainers who do not follow or enforce the Code of Conduct may be permanently removed from the project team.
 
-❓ Support
-We are a small team working hard to keep up with the documentation demands of a continuously changing product. Unfortunately, we just can't help with support questions in this repository. If you are experiencing a problem with GitHub, unrelated to our documentation, please contact GitHub Support directly. Any issues, discussions, or pull requests opened here requesting support will be given information about how to contact GitHub Support, then closed and locked.
+This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community.
 
-If you're having trouble with your GitHub account, contact Support.
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at [email address]. All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances. Maintainers are obligated to maintain confidentiality with regard to the reporter of an incident.
 
-🌏 Translations
-This website is internationalized and available in multiple languages. The source content in this repository is written in English. We automate translations through an internal process, working with professional translators to localize the English content.
+This Code of Conduct is adapted from the Contributor Covenant, version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 
-We do not currently accept contributions for translated content.
-
-⚖️ Site Policy
-GitHub's site policies are published on docs.github.com, too!
-
-If you find a typo in the site policy section, you can open a pull request to fix it. For anything else, see the CONTRIBUTING guide in the site-policy repo.
