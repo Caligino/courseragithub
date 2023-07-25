@@ -1,68 +1,24 @@
 #!/bin/bash
 
-# This checks if the number of arguments is correct
-# If the number of arguments is incorrect ( $# != 2) print error message and exit
-if [[ $# != 2 ]]
-then
-  echo "backup.sh target_directory_name destination_directory_name"
-  exit
-fi
+# Function to calculate simple interest
+calculate_simple_interest() {
+    principal=$1
+    rate=$2
+    time=$3
 
-# This checks if argument 1 and argument 2 are valid directory paths
-if [[ ! -d $1 ]] || [[ ! -d $2 ]]
-then
-  echo "Invalid directory path provided"
-  exit
-fi
+    interest=$(echo "scale=2; $principal * $rate * $time / 100" | bc)
+    echo $interest
+}
 
-# [TASK 1]
-targetDirectory=
-destinationDirectory=
+# Main script starts here
 
-# [TASK 2]
-echo ""
-echo ""
+# Get user input
+read -p "Enter the principal amount: " principal_amount
+read -p "Enter the interest rate (in percentage): " interest_rate
+read -p "Enter the time period (in years): " time_period
 
-# [TASK 3]
-currentTS=``
+# Calculate simple interest using the function
+interest=$(calculate_simple_interest $principal_amount $interest_rate $time_period)
 
-# [TASK 4]
-backupFileName=""
-
-# We're going to:
-  # 1: Go into the target directory
-  # 2: Create the backup file
-  # 3: Move the backup file to the destination directory
-
-# To make things easier, we will define some useful variables...
-
-# [TASK 5]
-origAbsPath=``
-
-# [TASK 6]
-cd # <-
-destDirAbsPath=``
-
-# [TASK 7]
-cd # <-
-cd # <-
-
-# [TASK 8]
-yesterdayTS=
-
-declare -a toBackup
-
-for file in $() # [TASK 9]
-do
-  # [TASK 10]
-  if (())
-  then
-    # [TASK 11]
-  fi
-done
-
-# [TASK 12]
-
-# [TASK 13]
-
-# Congratulations! You completed the final project for this course!
+# Display the result
+echo "Simple Interest: $interest"
